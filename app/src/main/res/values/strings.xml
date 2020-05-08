@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LADM_U3_Practica2_EdgarRamirez</string>
+    <array name="busqueda">
+        <item>nombre cliente</item>
+        <item>celular</item>
+        <item>domicilio</item>
+        <item>pedido/producto</item>
+        <item>precio</item>
+        <item>cantidad</item>
+
+    </array>
+</resources>

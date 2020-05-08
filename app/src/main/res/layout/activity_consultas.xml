@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/mensaje10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige campo a buscar:"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/clave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/busqueda"/>
+
+    <TextView
+        android:id="@+id/mensaje9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/diseno_text"
+        android:ems="10"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/diseno_botones"
+        android:text="CONSULTAR"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diseno_botones"
+        android:text="CANCELAR"
+        android:textStyle="bold" />
+
+</LinearLayout>

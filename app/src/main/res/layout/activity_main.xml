@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mensaje9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="DATOS CLIENTE" />
+
+    <TextView
+        android:id="@+id/mensaje10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="22dp"
+        android:background="@drawable/diseno_text"/>
+
+    <TextView
+        android:id="@+id/mensaje11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domicilio:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/domicilio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/diseno_text"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/mensaje4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celular:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/celular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="22dp"
+        android:background="@drawable/diseno_text"/>
+
+    <TextView
+        android:id="@+id/mensaje5"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DATOS PEDIDO"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/mensaje6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Producto:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/diseno_text"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/mensaje7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:background="@drawable/diseno_text"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/mensaje8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:background="@drawable/diseno_text"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/entregado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Entregado"
+        android:checked="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/insertar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/diseno_botones"
+            android:text="INSERTAR"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/consultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_botones"
+            android:text="CONSULTAR"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/Linea"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
